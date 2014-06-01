@@ -4,6 +4,7 @@ body{
 	height:100%;
 	top:-11px;
 	left:-12px;	
+	font-family: 'Dosis', sans-serif;
 }
 
 .namebanner {
@@ -19,16 +20,14 @@ body{
 .menuhead{
 	position: relative;
 	padding:0px 2px;
-	background-color: #FF8800;
-    width: 100%; 
+	background-color: #FFFFFF;
+    width: 100%;  
 }
 .menuhead li {
 	cursor:pointer;
-	background-color: #FF8800;	
-	text-indent:0;
+	background-color: #FFFFFF;
 	display:inline-block;
-	color:#FFFFFF;
-	font-family:Arial;
+	color:#888888;
 	font-size:16px;
 	font-weight:bold;
 	font-style:normal;
@@ -40,11 +39,10 @@ body{
 }
 .menuhead li:hover {
 	cursor:pointer;
-	background-color: #FFFFFF;	
 	text-indent:0;
 	display:inline-block;
-	color:#000000;
-	font-family:Arial;
+	color:#FFFFFF;
+	background-color:#888888;
 	font-size:16px;
 	font-weight:bold;
 	font-style:normal;
@@ -53,6 +51,11 @@ body{
 	width:15%;
 	text-decoration:none;
 	text-align:center;
+	opacity:90%;
+}
+
+.title{
+	font-family: 'Dosis', sans-serif;
 }
 
 .namefooter1{
@@ -123,6 +126,7 @@ body{
 	margin-left:10%;
 	font-size: 1.25em;
 	width:90%;
+	color:#333333;
 }
 
 .experience{
@@ -130,6 +134,7 @@ body{
 	top:0%;
 	font-size: 1.25em;
 	width:90%;
+	color:#333333;
 }
 
 .subjects{
@@ -150,7 +155,7 @@ body{
 }
 
 .titles{
-	color:#0099CC;
+	color:#333333;
 }
 
 .footer{		
