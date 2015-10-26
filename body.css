@@ -64,7 +64,7 @@ body{
 	background-color: #FFFFFF;
 	border-style: solid;
 	border-color: #FFBB33;
-	font-size:1.5em;
+	font-size:1em;
 	position: relative;
 	width:100%;
 	color:#FFBB33;
@@ -78,8 +78,8 @@ body{
 	border-color: #33B5E5;
 	position: relative;
 	width:100%;
-	color:#FFFFFF;
-	font-size:1.5em;
+	color:#33B5E5;
+	font-size:1em;
 }
 
 .namefooter3{
@@ -90,8 +90,8 @@ body{
 	border-color: #99CC00;
 	position: relative;
 	width:100%;
-	color:#FFFFFF;
-	font-size:1.5em;
+	color:#99CC00;
+	font-size:1em;
 }
 
 .namefooter4{
@@ -102,8 +102,8 @@ body{
 	border-color: #AA66CC;
 	position: relative;
 	width:100%;
-	color:#FFFFFF;
-	font-size:1.5em;
+	color:#AA66CC;
+	font-size:1em;
 }
 .namefooter5{
 	text-align:center;
@@ -113,8 +113,8 @@ body{
 	border-color: #FF4444;
 	position: relative;
 	width:100%;
-	color:#FFFFFF;
-	font-size:1.5em;
+	color:#FF4444;
+	font-size:1em;
 }
 .namefooter6{
 	text-align:center;
@@ -124,8 +124,8 @@ body{
 	border-color: #333333;
 	position: relative;
 	width:100%;
-	color:#FFFFFF;
-	font-size:1.5em;
+	color:#333333;
+	font-size:1em;
 }
 
 
