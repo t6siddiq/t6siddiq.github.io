@@ -25,7 +25,7 @@ body{
 }
 .menuhead li {
 	cursor:pointer;
-	background-color: #FFFFFF;
+	background-color: #E6E6E6;
 	display:inline-block;
 	color:#888888;
 	font-size:16px;
