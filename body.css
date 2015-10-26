@@ -62,8 +62,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #FFBB33;
 	font-size:1em;
 	position: relative;
 	width:100%;
@@ -74,8 +72,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #33B5E5;
 	position: relative;
 	width:100%;
 	color:#33B5E5;
@@ -86,8 +82,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #99CC00;
 	position: relative;
 	width:100%;
 	color:#99CC00;
@@ -98,8 +92,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #AA66CC;
 	position: relative;
 	width:100%;
 	color:#AA66CC;
@@ -109,8 +101,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #FF4444;
 	position: relative;
 	width:100%;
 	color:#FF4444;
@@ -120,8 +110,6 @@ body{
 	text-align:center;
 	padding:2px 2px;
 	background-color: #FFFFFF;
-	border-style: solid;
-	border-color: #333333;
 	position: relative;
 	width:100%;
 	color:#333333;
