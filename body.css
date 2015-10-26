@@ -61,7 +61,9 @@ body{
 .namefooter1{
 	text-align:center;
 	padding:2px 2px;
-	background-color: #FFBB33;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #FFBB33;
 	font-size:1.5em;
 	position: relative;
 	width:100%;
