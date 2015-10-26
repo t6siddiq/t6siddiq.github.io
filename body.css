@@ -59,6 +59,7 @@ body{
 }
 
 .namefooter1{
+	margin-left:10%;
 	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
@@ -69,7 +70,8 @@ body{
 }
 
 .namefooter2{
-	text-align:center;
+	margin-left:10%;
+	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
 	position: relative;
@@ -79,7 +81,8 @@ body{
 }
 
 .namefooter3{
-	text-align:center;
+	margin-left:10%;
+	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
 	position: relative;
@@ -89,7 +92,8 @@ body{
 }
 
 .namefooter4{
-	text-align:center;
+	margin-left:10%;
+	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
 	position: relative;
@@ -98,7 +102,8 @@ body{
 	font-size:1em;
 }
 .namefooter5{
-	text-align:center;
+	margin-left:10%;
+	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
 	position: relative;
@@ -107,7 +112,8 @@ body{
 	font-size:1em;
 }
 .namefooter6{
-	text-align:center;
+	margin-left:10%;
+	text-align:left;
 	padding:2px 2px;
 	background-color: #FFFFFF;
 	position: relative;
