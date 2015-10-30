@@ -24,7 +24,7 @@ function clickTop(){
 
 $(function(){ 
  $(window).on('scroll', function () {
- var scrollPos = $(document).scrollTop();
+ var scrollPos = $(document.getElementByID('menuhead')).scrollTop();
  $('.scroll').css({
  top: scrollPos
  });
