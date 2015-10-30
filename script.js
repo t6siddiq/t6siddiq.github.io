@@ -21,12 +21,3 @@ function clickCourse(){
 function clickTop(){
  	document.getElementById('top').scrollIntoView();	
 }
-
-$(function(){ 
- $(window).on('scroll', function () {
- var scrollPos = $(document.getElementByID('menuhead')).scrollTop();
- $('.scroll').css({
- top: scrollPos
- });
- }).scroll();
-});
