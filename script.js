@@ -22,3 +22,11 @@ function clickTop(){
  	document.getElementById('top').scrollIntoView();	
 }
 
+$(function(){ 
+ $(window).on('scroll', function () {
+ var scrollPos = $(document).scrollTop();
+ $('.scroll').css({
+ top: scrollPos
+ });
+ }).scroll();
+});
