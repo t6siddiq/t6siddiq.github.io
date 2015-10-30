@@ -18,7 +18,7 @@ body{
 }
 
 .menuhead{
-	position: fixed;
+	position: relative;
 	padding:0px 2px;
 	background-color: #E6E6E6;
     width: 100%;  
