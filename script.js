@@ -23,8 +23,8 @@ function clickTop(){
 }
 
 $(window).on('menuhead', function () {
-    var scrollPos = $(document).scrollTop();
-    $('.menuhead').css({
-        top: scrollPos
-    });
-}).scroll();
+ var scrollPos = $(document).scrollTop();
+ $('.menuhead').css({
+ top: scrollPos
+ });
+}).menuhead();
