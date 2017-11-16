@@ -1,0 +1,294 @@
+body 
+{
+    background-color:crimson;
+    margin:0px;
+    padding:0px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Header Styles
+/* ------------------------------------------------------------------ */
+
+header
+{
+    position: relative;
+	height: 980px;
+	min-height: 500px;
+    width: 100%;
+    background-color: crimson;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* vertically center banner section */
+header:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+header .banner {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 85%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+header .banner-text {
+	width: 100%;
+}
+header .banner-text h1 {
+	font: 90px/1.1em 'opensans-bold', sans-serif;
+	color: #FFFFFF;
+	letter-spacing: -2px;
+	margin: 0 auto 18px auto;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+header .banner-text h3 {
+	font: 18px/1.9em 'librebaskerville-regular', serif;
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 70%;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+header .banner-text h3 span, header .banner-text h3 a {
+	color: pink;
+}
+
+header .banner-text hr {
+	width: 60%;
+	margin: 18px auto 24px auto;
+	border-color: #2F2D2E;
+	border-color: rgba(150, 150, 150, .1);
+}
+
+header .logo
+{
+    font-family: 'Great Vibes', cursive;
+	font-size: 40px;
+	padding:20px;
+	color: pink;
+	display: inline-block;
+    margin: 0 auto;
+}
+
+header .title
+{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: bisque;
+    margin:50px 10px;;
+    padding:10px;
+}
+
+/* header social links */
+header .social {
+	margin: 24px 0;
+	padding: 0;
+	font-size: 30px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+header .social li {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0;
+}
+header .social li a {
+	color: #fff;
+}
+header .social li a:hover {
+	color: #F06000;
+}
+
+/* scrolldown link */
+header .scrolldown a {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -29px;
+	color: #fff;
+	display: block;
+	height: 42px;
+	width: 42px;
+	font-size: 42px;
+	line-height: 42px;
+	color: #fff;
+	border-radius: 100%;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover {
+	color: #11ABB0;
+}
+
+.profile-pic {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	border-radius: 5%;
+}
+
+/* primary navigation
+ --------------------------------------------------------------------- */
+ #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+
+/* nav-wrap */
+#nav-wrap {
+	font: 18px 'opensans-bold', sans-serif;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	margin: 0 auto;
+	z-index: 100;
+	position: absolute;
+	right: 0;
+    top: 0;
+	height: 80px;
+	background-color:rgb(243, 122, 146);
+}
+.opaque {
+	background-color: #333;
+}
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn {
+	display: none;
+}
+
+ul#nav {
+	min-height: 48px;
+	width: auto;
+	/* center align the menu */
+	text-align: center;
+}
+ul#nav li {
+	position: relative;
+	list-style: none;
+	height: 48px;
+	display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+	/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+	display: inline-block;
+	padding: 8px 13px;
+	line-height: 32px;
+	text-decoration: none;
+	text-align: left;
+	color: pink;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li a:active {
+	background-color: transparent !important;
+}
+ul#nav li a:hover {
+	background-color: transparent !important;
+}
+ul#nav li a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: crimson;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+ul#nav li a:hover:before{
+	visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+	
+}
+ul#nav li.current a {
+	color: crimson;
+}
+
+/* ------------------------------------------------------------------ */
+
+
+/* ------------------------------------------------------------------ */
+/* About Section
+ /* ------------------------------------------------------------------ */
+
+ #about {
+    background: bisque;
+	padding-top: 96px;
+	padding-bottom: 66px;
+    overflow: hidden;
+}
+
+#about a, #about a:visited {
+	color: #fff;
+}
+#about a:hover, #about a:focus {
+	color: #11ABB0;
+}
+
+#about h2 {
+	font: 22px/30px 'opensans-bold', sans-serif;
+	color: #F06000;
+	margin-bottom: 12px;
+}
+#about p {
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* Overview Section
+ /* ------------------------------------------------------------------ */
+
+#overview {
+	background: #fff;
+	padding-top: 90px;
+	padding-bottom: 72px;
+	overflow: hidden;
+}
+
+.conclusion
+{
+    overflow: hidden;
+    width: 98%;
+    padding: 20px;
+    position: fixed;
+    bottom: 50px;
+    background: rgb(243, 122, 146); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(243, 122, 146), bisque); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(243, 122, 146), bisque); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(243, 122, 146), bisque); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(243, 122, 146), bisque); /* Standard syntax */
+}
+
+footer
+{
+    background-color:white;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
